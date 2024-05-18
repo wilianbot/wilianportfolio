@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* =================== Sytles =========================*/
+
+.titlenamewilian {
+  @apply  text-neutral-700 transition duration-700 ease-out
+}
+
+.titlenamewilian:hover {
+  @apply text-neutral-900 -translate-y-1;
+}
+
+.titlenamerobal {
+  @apply text-orange-600 transition duration-700 ease-out;
+}
+
+.titlenamerobal:hover {
+  @apply text-orange-700 -translate-y-1;
+}
+
+
+/* Header */
+.nav {
+  @apply text-black transition duration-700 ease-out
+}
+
+
+.nav:hover {
+  @apply text-opacity-50 -translate-y-1;
+}
+
+
+
+.colortext {
+  @apply text-neutral-700;
+}
+
+.bgproject {
+  @apply bg-neutral-700;
+}
