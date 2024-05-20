@@ -5,7 +5,7 @@ import { FaDatabase } from "react-icons/fa";
 
 function Expertise() {
   return (
-    <div className="flex flex-col items-center justify-top h-screen mt-5 max-sm:h-full" id="expertise">
+    <div className="flex flex-col items-center justify-top h-screen mt-5 max-sm:h-full max-sm:mt-28" id="expertise">
         <h1 className="align-top flex justify-center font-poppins font-semibold text-6xl colortext titlenamerobal cursor-default max-sm:text-4xl">My Expertise</h1>
         <div className="grid grid-cols-3 grid-rows-2 mt-8 max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:grid-rows-subgrid">
             <div className="h-80 w-72 border-white border-4 flex flex-col align-middle items-center p-5">
